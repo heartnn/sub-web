@@ -518,7 +518,7 @@ export default {
     document.title = "ACL4SSR 在线订阅转换";
   },
   mounted() {
-    this.form.clientType = "clashr";
+    this.form.clientType = "clash";
     this.form.customBackend = "https://subconverter-web.now.sh/sub?";
     this.form.remoteConfig =
       "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online.ini";
