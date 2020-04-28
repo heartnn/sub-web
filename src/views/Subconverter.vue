@@ -225,7 +225,7 @@
 <script>
 const project = "https://github.com/leosam1024/sub-web";
 const remoteConfigSample =
-  "https://raw.githubusercontent.com/tindy2013/subconverter/master/base/config/example_external_config.ini";
+  "https://cdn.jsdelivr.net/gh/tindy2013/subconverter@master/base/config/example_external_config.ini";
 const gayhubRelease = "https://github.com/tindy2013/subconverter/releases";
 const defaultBackend = "https://api.wcc.best/sub?";
 const shortUrlBackend = "https://api.suo.yt/short";
@@ -255,20 +255,20 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "gfwsb.114514.best(subconverter作者提供1)":
-            "https://gfwsb.114514.best/sub?",
-          "subconverter-web.now.sh(subconverter作者提供2-稳定)":
-            "https://subconverter-web.now.sh/sub?",
-          "subconverter.herokuapp.com(subconverter作者提供3-稳定)":
-            "https://subconverter.herokuapp.com/sub?",
+          "heartnn-sub.herokuapp.com": "https://heartnn-sub.herokuapp.com/sub?",
+          "gfwsb.114514.best(subconverter作者提供1)": "https://gfwsb.114514.best/sub?",
+          "subconverter-web.now.sh(subconverter作者提供2-稳定)": "https://subconverter-web.now.sh/sub?",
+          "subconverter.herokuapp.com(subconverter作者提供3-稳定)": "https://subconverter.herokuapp.com/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
           "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?"
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
+          { value: "https://heartnn-sub.herokuapp.com/sub?" },
           { value: "https://gfwsb.114514.best/sub?" },
           { value: "https://subconverter-web.now.sh/sub?" },
           { value: "https://subconverter.herokuapp.com/sub?" },
+          { value: "https://api.dler.io/sub?" },
           { value: "https://api.wcc.best/sub?" }
         ],
         remoteConfig: [
@@ -287,52 +287,52 @@ export default {
               {
                 label: "ACL4SSR_Online 默认版 分组比较全 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online.ini"
               },
               {
                 label: "ACL4SSR_Online_AdblockPlus 更多去广告 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_AdblockPlus.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_AdblockPlus.ini"
               },
               {
                 label: "ACL4SSR_Online_NoAuto 无自动测速 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoAuto.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_NoAuto.ini"
               },
               {
                 label: "ACL4SSR_Online_Mini 精简版 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_Mini.ini"
               },
               {
                 label: "ACL4SSR_Online_Mini_AdblockPlus.ini 精简版 更多去广告 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini"
               },
               {
                 label: "ACL4SSR_Online_Mini_NoAuto.ini 精简版 不带自动测速 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_NoAuto.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_Mini_NoAuto.ini"
               },
               {
                 label: "ACL4SSR_Online_Mini_Fallback.ini 精简版 带故障转移 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_Fallback.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_Mini_Fallback.ini"
               },
               {
                 label: "ACL4SSR_Online_Mini_MultiMode.ini 精简版 自动测速、故障转移、负载均衡 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"
               },
               {
                 label: "ACL4SSR_Online_Full 全分组 重度用户使用 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_Full.ini"
               },
               {
                 label: "ACL4SSR_Online_Full_AdblockPlus 全分组 重度用户使用 更多去广告 (与Github同步)",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
+                  "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini"
               },
               {
                 label: "ACL4SSR 本地 默认版 分组比较全",
@@ -382,12 +382,12 @@ export default {
               {
                 label: "No-Urltest",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/universal/no-urltest.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/universal/no-urltest.ini"
               },
               {
                 label: "Urltest",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/universal/urltest.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/universal/urltest.ini"
               }
             ]
           },
@@ -397,42 +397,42 @@ export default {
               {
                 label: "Maying",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/maying.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/maying.ini"
               },
               {
                 label: "rixCloud",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/rixcloud.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/rixcloud.ini"
               },
               {
                 label: "YoYu",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/yoyu.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/yoyu.ini"
               },
               {
                 label: "Ytoo",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/ytoo.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/ytoo.ini"
               },
               {
                 label: "NyanCAT",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/nyancat.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/nyancat.ini"
               },
               {
                 label: "Nexitally",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/nexitally.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/nexitally.ini"
               },
               {
                 label: "贼船",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/zeichuan.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/zeichuan.ini"
               },
               {
                 label: "布丁",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/customized/pud.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/customized/pud.ini"
               }
             ]
           },
@@ -442,12 +442,12 @@ export default {
               {
                 label: "NeteaseUnblock(仅规则，No-Urltest)",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/special/netease.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/special/netease.ini"
               },
               {
                 label: "Basic(仅GEOIP CN + Final)",
                 value:
-                  "https://raw.githubusercontent.com/CareyWang/Rules/master/RemoteConfig/special/basic.ini"
+                  "https://cdn.jsdelivr.net/gh/CareyWang/Rules@master/RemoteConfig/special/basic.ini"
               }
             ]
           }
@@ -521,7 +521,7 @@ export default {
     this.form.clientType = "clashr";
     this.form.customBackend = "https://subconverter-web.now.sh/sub?";
     this.form.remoteConfig =
-      "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini";
+      "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/config/ACL4SSR_Online.ini";
     this.notify();
     this.getBackendVersion();
   },
