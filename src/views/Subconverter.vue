@@ -255,7 +255,7 @@ export default {
         },
         customBackend: {
           "localhost:25500 本地版": "http://localhost:25500/sub?",
-          "heartnn-sub.herokuapp.com": "https://heartnn-sub.herokuapp.com/sub?",
+          "sub-now.now.sh": "https://sub-now.now.sh/sub?",
           "gfwsb.114514.best(subconverter作者提供1)": "https://gfwsb.114514.best/sub?",
           "subconverter-web.now.sh(subconverter作者提供2-稳定)": "https://subconverter-web.now.sh/sub?",
           "subconverter.herokuapp.com(subconverter作者提供3-稳定)": "https://subconverter.herokuapp.com/sub?",
@@ -264,7 +264,7 @@ export default {
         },
         backendOptions: [
           { value: "http://localhost:25500/sub?" },
-          { value: "https://heartnn-sub.herokuapp.com/sub?" },
+          { value: "https://sub-now.now.sh/sub?" },
           { value: "https://gfwsb.114514.best/sub?" },
           { value: "https://subconverter-web.now.sh/sub?" },
           { value: "https://subconverter.herokuapp.com/sub?" },
